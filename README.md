@@ -15,11 +15,6 @@ A Rust library for indexing and monitoring Solana blockchain events. solana-chai
 
 Add to your `Cargo.toml`:
 
-```toml
-[dependencies]
-solana-chain-indexer = { git = "https://github.com/owizdom/solana-chain-indexer" }
-```
-
 ## Quick Start
 
 ```rust
@@ -128,18 +123,13 @@ The library follows a modular architecture:
 
 ## Disclaimer
 
-**🚧 solana-chain-indexer is under active development, and has not been audited.**
+**solana-chain-indexer is under active development, and has not been audited.**
 
 - Features may be added, removed, or modified
 - Interfaces may have breaking changes
 - Should be used **only for testing purposes** and **not in production**
 - Provided "as is" without guarantee of functionality or production support
 
-**Eigen Labs, Inc. does not provide support for production use.**
-
-## Security
-
-If you discover a vulnerability, please **do not** open an issue. Instead contact the maintainers directly at `security@eigenlabs.org`.
 
 ## License
 
